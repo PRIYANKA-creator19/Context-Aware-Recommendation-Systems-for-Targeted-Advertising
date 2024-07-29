@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ad Click Prediction</title>
+</head>
+<body>
+    <h1>Ad Click Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="time_spent">Daily Time Spent on Site:</label>
+        <input type="text" id="time_spent" name="time_spent" required><br>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required><br>
+
+        <label for="income">Area Income:</label>
+        <input type="text" id="income" name="income" required><br>
+
+        <label for="internet_usage">Daily Internet Usage:</label>
+        <input type="text" id="internet_usage" name="internet_usage" required><br>
+
+        <label for="male">Male (1 for Yes, 0 for No):</label>
+        <input type="text" id="male" name="male" required><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
